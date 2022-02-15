@@ -1,0 +1,7 @@
+app/Config/Config.php
+public/galeria
+public/documentos/
+public/error_log
+.htaccess
+.ftpquota
+.vscode

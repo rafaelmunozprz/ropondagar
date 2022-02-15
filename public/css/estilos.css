@@ -1,0 +1,593 @@
+/* index pills */
+.md-pills .nav-link.active {
+  color: #fff;
+  background-color: #616161;
+}
+
+/* ------------------------------------------------- */
+/* ---------------------NOSOTROS-------------------- */
+/* ------------------------------------------------- */
+.rotate-title {
+  transform: rotateZ(-90deg);
+}
+
+button.close {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  padding-right: 1rem;
+  padding-top: 0.6rem;
+}
+
+.border-top {
+  border-top-width: 2px !important;
+}
+
+/* ------------------------------------------------- */
+/* ----------Estilos de vista de productos---------- */
+/* ------------------------------------------------- */
+
+.card-productos {
+  position: relative;
+}
+
+.card-productos .herramientas {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  width: 100%;
+  z-index: 101;
+}
+
+.continuar_venta {
+  background: #fff;
+  border: 1px solid #1a20357e;
+  color: #1a2035;
+  position: fixed;
+  right: 2.5%;
+  bottom: 10px;
+  z-index: 10001;
+  width: 95%;
+  border-radius: 7px;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.continuar_venta.active {
+  background: #1a2035;
+  border: 0px solid #1a2035;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.continuar_venta .vender {
+  height: 50px;
+  cursor: pointer;
+}
+
+.continuar_venta .vender-lg {
+  height: 75px;
+  cursor: pointer;
+}
+
+/** Vista para productos individuales*/
+
+.producto {
+  cursor: pointer;
+}
+
+/**toggle de usuarios*/
+
+.toggle_card {
+  cursor: pointer;
+}
+
+.toggle_card .card_encabezado {
+  background: #8d6e63;
+  color: #ffffff;
+}
+
+.toggle_user .toggle_data.off {
+  display: none;
+}
+
+.form_carrito {
+  cursor: pointer;
+}
+
+.form_carrito input[type="number"]::-webkit-inner-spin-button,
+.form_carrito input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form_carrito input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.form_carrito .modificar_precio {
+  /* background: #000; */
+  border: 1px solid #fff !important;
+  border-bottom: 0x solid #000 !important;
+  font-weight: 700;
+  width: 80px;
+}
+
+.form_carrito .modificar_precio.xlg {
+  font-size: 1.25em;
+}
+
+.form_carrito .modificar_precio.xxl {
+  font-size: 1.45em;
+}
+
+.form_carrito .modificar_precio.bb2 {
+  border-bottom: 2px solid #007e33 !important;
+  width: 50%;
+  text-align: center;
+}
+
+.form_carrito .descuentos {
+  display: none;
+}
+
+.form_carrito .precio {
+  font-size: 1.05em;
+}
+
+.form_carrito .precio.descuento {
+  font-weight: 700 !important;
+  text-decoration: line-through;
+}
+
+/**------------------------------------------------------------*/
+/*-------------------- Formato de costos  -------------------- */
+/**------------------------------------------------------------*/
+
+.form_editable input[type="number"]::-webkit-inner-spin-button,
+.form_editable input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form_editable input[type="number"] {
+  -moz-appearance: textfield;
+  border: 1px solid #fff !important;
+  border-bottom: 0x solid #000 !important;
+  width: 100%;
+  background: transparent;
+  text-align: center;
+}
+
+.form_editable input[type="text"]::-webkit-inner-spin-button,
+.form_editable input[type="text"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form_editable input[type="text"] {
+  -moz-appearance: textfield;
+  border: 1px solid #fff !important;
+  border-bottom: 2px solid #000000 !important;
+  min-width: 220px;
+  background: transparent;
+  text-align: justify;
+}
+
+
+/**------------------------------------------------------------*/
+/*-------------------- Modal de descuentos-------------------- */
+/**------------------------------------------------------------*/
+
+.modal_descuentos {
+  height: 100vh;
+  margin: 0;
+}
+
+.modal_descuentos .cuerpo {
+  height: 100%;
+}
+
+/**------------------------------------------------------------*/
+/*------------------------ Pago de nota----------------------- */
+/**------------------------------------------------------------*/
+
+.pago_nota {
+  font-weight: 300;
+}
+
+.pago_nota .precio {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.pago_nota .continuar_pago {
+  cursor: pointer !important;
+}
+
+/**------------------------------------------------------------*/
+/*------------------------ COLORES  mdb----------------------- */
+/**------------------------------------------------------------*/
+
+.success-color-dark {
+  background: #007e33;
+  color: #ffffff !important;
+}
+
+.unique-color-dark {
+  background: #212121;
+  color: #ffffff !important;
+}
+
+.z-depth-1-half {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  border-radius: 12px;
+}
+
+.c-pointer {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.c-pointer:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+/**------------------------------------------------------------*/
+/*------------------------ MODELOS---------------------------- */
+/**------------------------------------------------------------*/
+.modelo {
+  transition: 0.3s;
+}
+
+.modelo:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.modelo .header_modelo {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modelo .cuerpo_modelo {
+  display: none;
+}
+
+.modelo .cuerpo_modelo.active {
+  display: block;
+}
+
+.modelo .header_modelo.warning {
+  background: #ffbb33;
+  color: #ffffff !important;
+}
+
+.modelo .alertas_cont {
+  display: none;
+  position: relative;
+}
+
+.modelo .alertas_cont.warning {
+  display: inline;
+  margin-top: -20px;
+  margin-right: -40px;
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.modelo .alertas_cont .alerta {
+  vertical-align: top;
+}
+
+.contenedor .foto {
+  margin-top: -60px;
+}
+
+.loader_maximus {
+  width: 100vw;
+  height: 100%;
+  background-color: #595959;
+  z-index: 10001;
+}
+
+.loader_maximus .text-spinner {
+  font-size: 2em;
+  font-weight: 600;
+  color: #fff;
+}
+
+.loader_spin {
+  color: #fff;
+  font-size: 90px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 72px auto;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+  animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+}
+
+@-webkit-keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em,
+      -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em,
+      -0.297em -0.775em 0 -0.477em;
+  }
+
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
+      -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em,
+      -0.749em -0.34em 0 -0.477em;
+  }
+
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
+      -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em,
+      -0.82em -0.09em 0 -0.477em;
+  }
+
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+
+@keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em,
+      -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em,
+      -0.297em -0.775em 0 -0.477em;
+  }
+
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
+      -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em,
+      -0.749em -0.34em 0 -0.477em;
+  }
+
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
+      -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em,
+      -0.82em -0.09em 0 -0.477em;
+  }
+
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+
+@-webkit-keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/** SUCCESS CSS*/
+
+/**
+ * Extracted from: SweetAlert
+ * Modified by: Istiak Tridip
+ */
+.success-checkmark {
+  width: 80px;
+  height: 115px;
+  margin: 0 auto;
+}
+
+.success-checkmark .check-icon {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50%;
+  box-sizing: content-box;
+  border: 4px solid #4caf50;
+}
+
+.success-checkmark .check-icon::before {
+  top: 3px;
+  left: -2px;
+  width: 30px;
+  transform-origin: 100% 50%;
+  border-radius: 100px 0 0 100px;
+}
+
+.success-checkmark .check-icon::after {
+  top: 0;
+  left: 30px;
+  width: 60px;
+  transform-origin: 0 50%;
+  border-radius: 0 100px 100px 0;
+  animation: rotate-circle 4.25s ease-in;
+}
+
+.success-checkmark .check-icon::before,
+.success-checkmark .check-icon::after {
+  content: "";
+  height: 100px;
+  position: absolute;
+  background: #ffffff;
+  transform: rotate(-45deg);
+}
+
+.success-checkmark .check-icon .icon-line {
+  height: 5px;
+  background-color: #4caf50;
+  display: block;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 10;
+}
+
+.success-checkmark .check-icon .icon-line.line-tip {
+  top: 46px;
+  left: 14px;
+  width: 25px;
+  transform: rotate(45deg);
+  animation: icon-line-tip 0.75s;
+}
+
+.success-checkmark .check-icon .icon-line.line-long {
+  top: 38px;
+  right: 8px;
+  width: 47px;
+  transform: rotate(-45deg);
+  animation: icon-line-long 0.75s;
+}
+
+.success-checkmark .check-icon .icon-circle {
+  top: -4px;
+  left: -4px;
+  z-index: 10;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  box-sizing: content-box;
+  border: 4px solid rgba(76, 175, 80, 0.5);
+}
+
+.success-checkmark .check-icon .icon-fix {
+  top: 8px;
+  width: 5px;
+  left: 26px;
+  z-index: 1;
+  height: 85px;
+  position: absolute;
+  transform: rotate(-45deg);
+  background-color: #ffffff;
+}
+
+@keyframes rotate-circle {
+  0% {
+    transform: rotate(-45deg);
+  }
+
+  5% {
+    transform: rotate(-45deg);
+  }
+
+  12% {
+    transform: rotate(-405deg);
+  }
+
+  100% {
+    transform: rotate(-405deg);
+  }
+}
+
+@keyframes icon-line-tip {
+  0% {
+    width: 0;
+    left: 1px;
+    top: 19px;
+  }
+
+  54% {
+    width: 0;
+    left: 1px;
+    top: 19px;
+  }
+
+  70% {
+    width: 50px;
+    left: -8px;
+    top: 37px;
+  }
+
+  84% {
+    width: 17px;
+    left: 21px;
+    top: 48px;
+  }
+
+  100% {
+    width: 25px;
+    left: 14px;
+    top: 45px;
+  }
+}
+
+@keyframes icon-line-long {
+  0% {
+    width: 0;
+    right: 46px;
+    top: 54px;
+  }
+
+  65% {
+    width: 0;
+    right: 46px;
+    top: 54px;
+  }
+
+  84% {
+    width: 55px;
+    right: 0px;
+    top: 35px;
+  }
+
+  100% {
+    width: 47px;
+    right: 8px;
+    top: 38px;
+  }
+}
